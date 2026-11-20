@@ -53,6 +53,3 @@ This project was built to gain practical experience in frontend and full-stack w
 - Order management
 - User profile and order history
 
-
-B.Tech Artificial Intelligence & Data Science  
-Sri Venkateswara College of Engineering
