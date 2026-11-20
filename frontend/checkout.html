@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="checkout">
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Ecommerce Store</a>
+
+        <div class="nav-links">
+            <a href="index.html">Products</a>
+            <a href="cart.html">Cart</a>
+            <a href="orders.html">Orders</a>
+        </div>
+    </nav>
+</header>
+
+<div class="checkout-container">
+
+    <h1>Checkout</h1>
+
+    <div id="checkout-list"></div>
+
+    <div class="total-box">
+
+        <h2>
+            Total:
+            <span id="checkout-total">₹0</span>
+        </h2>
+
+        <button class="checkout-button" onclick="placeOrder()">
+            Place Order
+        </button>
+
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

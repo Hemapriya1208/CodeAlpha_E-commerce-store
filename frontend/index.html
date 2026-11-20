@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-page="home">
+
+<header>
+    <nav class="navbar">
+        <a href="/" class="logo">Ecommerce Store</a>
+
+        <div class="nav-links">
+            <a href="/">Products</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+            <a href="orders.html" id="orders-link">Orders</a>
+            <a href="login.html" id="login-link">Login</a>
+            <a href="register.html" id="register-link">Register</a>
+            <span id="user-name"></span>
+            <button id="logout-link" class="logout-button">Logout</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section class="hero">
+        <div>
+            <h1>Welcome to Ecommerce Store</h1>
+            <p>Find quality products at affordable prices.</p>
+            <a href="#products" class="shop-button">Shop Now</a>
+        </div>
+    </section>
+
+    <section id="products" class="products-section">
+        <h2>Our Products</h2>
+        <div id="product-list" class="product-grid"></div>
+    </section>
+</main>
+
+<footer>
+    <p>© 2026 Ecommerce Store</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

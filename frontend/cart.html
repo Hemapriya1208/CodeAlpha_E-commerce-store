@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-page="cart">
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">Ecommerce Store</a>
+
+        <div class="nav-links">
+            <a href="index.html">Products</a>
+            <a href="cart.html">Cart (<span id="cart-count">0</span>)</a>
+            <a href="orders.html">Orders</a>
+        </div>
+    </nav>
+</header>
+
+<div class="cart-container">
+
+    <h1>Shopping Cart</h1>
+
+    <div id="cart-list"></div>
+
+    <div class="total-box">
+        <h2>Total: <span id="cart-total">₹0</span></h2>
+
+        <a href="checkout.html" class="checkout-button">
+            Proceed to Checkout
+        </a>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
